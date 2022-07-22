@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  body{
+    @apply w-full bg-body-col text-white m-0 p-0;
+  }
+  .header-main{
+    @apply p-4 my-0 mx-0 bg-[url('https://res.cloudinary.com/dwmm1r1ph/image/upload/v1651214532/jobs_pic/y7ic3qh5fn2kzm9lvngi.jpg')] bg-cover h-96;
+  }
+  li{
+  @apply  mx-4 flex items-center justify-around hover:text-purple transition cursor-pointer whitespace-nowrap;
+  }
+}
+
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+
+
